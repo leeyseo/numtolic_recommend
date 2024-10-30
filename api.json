@@ -1,0 +1,131 @@
+{
+    "currentPage": 0,
+    "totalPages": 28,
+    "totalElements": 138,
+    "content": [
+        {
+            "id": 19,
+            "photo": "https://nyumbucket.s3.ap-northeast-2.amazonaws.com/restaurant/2bd2b7e2-a55a-4f2e-928c-09e8614a1b6b",
+            "name": "파로스 커피",
+            "address": "경기 부천시 원미구 부일로685번길 36 1층 101호",
+            "phoneNumber": "032-343-7775",
+            "categories": [
+                {
+                    "id": 7,
+                    "name": "카페"
+                }
+            ],
+            "rating": 4.5,
+            "menu": [
+                "커피"
+            ],
+            "description": "900원 커피가 가성비가 좋아요. 가대생들의 카페인을 책임지는 곳.",
+            "travelTime": 1,
+            "latitude": 37.4856098029366,
+            "longitude": 126.805602411375,
+            "userRating": 5.0
+        },
+        {
+            "id": 14,
+            "photo": "https://nyumbucket.s3.ap-northeast-2.amazonaws.com/restaurant/dc5674ee-7319-4520-a036-b90b13676ad6",
+            "name": "모야그집",
+            "address": "경기 부천시 원미구 부일로685번길 7",
+            "phoneNumber": "032-349-9011",
+            "categories": [
+                {
+                    "id": 6,
+                    "name": "일식"
+                },
+                {
+                    "id": 13,
+                    "name": "혼밥"
+                }
+            ],
+            "rating": 3.0,
+            "menu": [
+                "제육덮밥",
+                "히레가스"
+            ],
+            "description": "제육의 불향이 좋아요. 조금 짤 수 도 있지만 자극적인 것을 좋아하시면 추천드려요.",
+            "travelTime": 3,
+            "latitude": 37.4843220280469,
+            "longitude": 126.806007131678,
+            "userRating": 5.0
+        },
+        {
+            "id": 20,
+            "photo": "https://nyumbucket.s3.ap-northeast-2.amazonaws.com/restaurant/99b90d3b-ed57-4f23-8e54-a09c0dc36236",
+            "name": "메가커피 가톨릭대점",
+            "address": "경기 부천시 원미구 지봉로 49",
+            "phoneNumber": "0507-1397-0778",
+            "categories": [
+                {
+                    "id": 3,
+                    "name": "디저트"
+                },
+                {
+                    "id": 7,
+                    "name": "카페"
+                }
+            ],
+            "rating": 3.0,
+            "menu": [
+                "커피"
+            ],
+            "description": "학교 근처의 메가커피에요. 1교시 전과 점심시간에 사람이 많아요.",
+            "travelTime": 1,
+            "latitude": 37.4863700929932,
+            "longitude": 126.804958775329,
+            "userRating": 3.0
+        },
+        {
+            "id": 12,
+            "photo": "https://nyumbucket.s3.ap-northeast-2.amazonaws.com/restaurant/528d38f1-2a71-41c0-8b2a-91db070873ea",
+            "name": "쇼샤돈부리",
+            "address": "경기 부천시 원미구 부일로 698 지하1층",
+            "phoneNumber": "032-342-8381",
+            "categories": [
+                {
+                    "id": 6,
+                    "name": "일식"
+                },
+                {
+                    "id": 12,
+                    "name": "데이트"
+                }
+            ],
+            "rating": 3.5,
+            "menu": [
+                "스페셜돈",
+                "규동"
+            ],
+            "description": "밥을 더 먹을 수 있어요. 분위기도 좋아요. 덮밥 맛집이에요.",
+            "travelTime": 6,
+            "latitude": 37.4843761248162,
+            "longitude": 126.807406182305,
+            "userRating": 4.0
+        },
+        {
+            "id": 26,
+            "photo": "https://nyumbucket.s3.ap-northeast-2.amazonaws.com/restaurant/5de70f75-89ab-482a-ad0d-2edcacca445a",
+            "name": "1983 PIZZA&PUB",
+            "address": "경기 부천시 원미구 역곡로13번길 74",
+            "phoneNumber": "032-345-1983",
+            "categories": [
+                {
+                    "id": 2,
+                    "name": "양식"
+                }
+            ],
+            "rating": 3.0,
+            "menu": [
+                "사각피자"
+            ],
+            "description": "사각피자 위에 노른자가 올라가 담백해요. 백종원의 골목식당에 나온걸로 유명해요.",
+            "travelTime": 5,
+            "latitude": 37.4852771880539,
+            "longitude": 126.807440616127,
+            "userRating": 4.0
+        }
+    ]
+}

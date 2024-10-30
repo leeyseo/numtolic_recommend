@@ -1,0 +1,25 @@
+[{
+    "id": 1,
+    "createdAt": "2024-10-27T15:30:00",
+    "rating": 4.5,
+    "content": "The food was great and the service was excellent.",
+    "restaurantId": 1001,
+    "author": {
+      "id": 2001,
+      "username": "user123",
+      "email": "user123@example.com"
+    }
+  },
+  {
+    "id": 2,
+    "createdAt": "2024-10-27T15:50:00",
+    "rating": 4.5,
+    "content": "The food was great and the service was excellent.",
+    "restaurantId": 19,
+    "author": {
+      "id": 2001,
+      "username": "user123",
+      "email": "user123@example.com"
+    }
+  }
+]
