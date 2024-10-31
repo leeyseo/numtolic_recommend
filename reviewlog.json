@@ -3,10 +3,10 @@
     "createdAt": "2024-10-27T15:30:00",
     "rating": 4.5,
     "content": "The food was great and the service was excellent.",
-    "restaurantId": 1001,
+    "restaurantId": 20,
     "author": {
       "id": 2001,
-      "username": "user123",
+      "username": "user121",
       "email": "user123@example.com"
     }
   },
@@ -18,8 +18,44 @@
     "restaurantId": 19,
     "author": {
       "id": 2001,
+      "username": "user122",
+      "email": "user123@example.com"
+    }
+  },
+  {
+    "id": 3,
+    "createdAt": "2024-10-27T15:30:00",
+    "rating": 1.5,
+    "content": "The food was great and the service was excellent.",
+    "restaurantId": 20,
+    "author": {
+      "id": 2002,
       "username": "user123",
       "email": "user123@example.com"
     }
+  },
+  {
+    "id": 4,
+    "createdAt": "2024-10-27T15:30:00",
+    "rating": 2.5,
+    "content": "The food was great and the service was excellent.",
+    "restaurantId": 20,
+    "author": {
+      "id": 2003,
+      "username": "user124",
+      "email": "user123@example.com"
+    }
+  },
+  {
+    "id": 5,
+    "createdAt": "2024-10-27T15:30:00",
+    "rating": 3.5,
+    "content": "The food was great and the service was excellent.",
+    "restaurantId": 21,
+    "author": {
+      "id": 2004,
+      "username": "user125",
+      "email": "user123@example.com"
   }
+}
 ]
