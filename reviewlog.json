@@ -51,7 +51,7 @@
     "createdAt": "2024-10-27T15:30:00",
     "rating": 3.5,
     "content": "The food was great and the service was excellent.",
-    "restaurantId": 21,
+    "restaurantId": 26,
     "author": {
       "id": 2004,
       "username": "user125",
