@@ -3,6 +3,43 @@ import json
 from datetime import datetime
 import numpy as np
 from xgboost import XGBRegressor
+from flask import Flask, jsonify
+import requests
+from datetime import datetime
+
+
+app = Flask(__name__)
+
+# 서버의 API 엔드포인트 설정
+USER_API_URL = 'http://localhost:8080/api/users'
+RESTAURANT_API_URL = 'http://localhost:8080/api/restaurants/all'
+REVIEW_LOG_API_URL = 'http://localhost:8080/api/review-logs'
+
+print("데이터를 로드하고 추천 결과를 계산합니다. 잠시만 기다려주세요...")
+
+# 사용자 데이터 가져오기
+user_response = requests.get(USER_API_URL)
+if user_response.status_code != 200:
+    raise Exception('Failed to load user data')
+user_data = user_response.json()
+
+
+# 레스토랑 데이터 가져오기
+restaurant_response = requests.get(RESTAURANT_API_URL)
+if restaurant_response.status_code != 200:
+    raise Exception('Failed to load restaurant data')
+api_data = restaurant_response.json()
+
+
+
+# 리뷰 로그 데이터 가져오기
+review_response = requests.get(REVIEW_LOG_API_URL)
+if review_response.status_code != 200:
+    raise Exception('Failed to load review data')
+review_data = review_response.json()
+
+
+
 
 # JSON 파일 읽기
 with open('./reviewlog.json', 'r', encoding='utf-8') as file:
@@ -278,9 +315,12 @@ for user_id in user_ids:
 # DataFrame을 float로 변환하여 결측값 포함 최종 예측 평점 행렬 출력
 final_predicted_df = final_predicted_df.astype(float)
 
+print("추천 결과 계산이 완료되었습니다.")
 
-# hybrid_predicted_df를 CSV 파일로 저장
-file_path = "funkSVD_xgboost_predicted_df.csv"
-final_predicted_df.to_csv(file_path, index=True)  # 인덱스 포함하여 저장
+@app.route('/recommendations', methods=['GET'])
+def get_recommendations():
+    recommendations_json = final_predicted_df.to_json(orient='index')
+    return jsonify(json.loads(recommendations_json))
 
-print(f"DataFrame이 로컬에 '{file_path}' 파일로 저장되었습니다.")
+if __name__ == '__main__':
+    app.run(debug=True, port=5000)
