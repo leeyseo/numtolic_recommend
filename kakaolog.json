@@ -1,0 +1,86 @@
+[{
+    "id": 1,
+    "createdAt": "2024-10-14T15:30:00",
+    "rating": 4.0,
+    "content": "평범한 요즘수제버거 맛 파이브가이브까진 절대아님",
+    "restaurantId": 1,
+    "author": {
+      "id": 2001,
+      "username": "보안관",
+      "email": "user123@example.com"
+    }
+  },
+  {
+    "id": 2,
+    "createdAt": "2024-10-03T15:50:00", 
+    "rating": 3.0,
+    "content": "이제는 다른 버거랑 가격차이가 크게 없어서 굳이 먹을 이유가 없어짐. 맛은 없지는 아니함.",
+    "restaurantId": 1,
+    "author": {
+      "id": 2002,
+      "username": "이제_카카오리뷰도_조작질이냐?",
+      "email": "user123@example.com"
+    }
+  },
+  {
+    "id": 3,
+    "createdAt": "2024-08-25T15:50:00",
+    "rating": 5.0,
+    "content": "여전히 이가격에 여기만한 버거 없어요 파이브가이즈 가지마시고 여기서 배터지게 드세요",
+    "restaurantId": 1,
+    "author": {
+      "id": 2003,
+      "username": "서준서",
+      "email": "user123@example.com"
+    }
+  },
+  {
+    "id": 4,
+    "createdAt": "2024-08-01T15:50:00",
+    "rating": 1.0,
+    "content": "요즘 초심을 잃은듯... 패티가 점점 얇아지내요...평점은 3점정도 입니다~",
+    "restaurantId": 1,
+    "author": {
+      "id": 2004,
+      "username": "인생뭐있누",
+      "email": "user123@example.com"
+    }
+  },
+  {
+    "id": 5,
+    "createdAt": "2024-10-30T15:50:00",
+    "rating": 1.0,
+    "content": "",
+    "restaurantId": 2,
+    "author": {
+      "id": 2002,
+      "username": "이제_카카오리뷰도_조작질이냐?",
+      "email": "user123@example.com"
+    }
+  },
+  {
+    "id": 6,
+    "createdAt": "2024-11-01T15:50:00",
+    "rating": 5.0,
+    "content": "The food was great and the service was excellent.",
+    "restaurantId": 3,
+    "author": {
+      "id": 2006,
+      "username": "엣헴엣헴신이나",
+      "email": "user123@example.com"
+    }
+  },
+  {
+    "id": 7,
+    "createdAt": "2024-10-27T15:50:00",
+    "rating": 5.0,
+    "content": "",
+    "restaurantId": 3,
+    "author": {
+      "id": 2007,
+      "username": "홍진",
+      "email": "user123@example.com"
+    }
+  
+}
+]

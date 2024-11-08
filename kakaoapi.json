@@ -1,0 +1,64 @@
+{
+    "currentPage": 0,
+    "totalPages": 28,
+    "totalElements": 138,
+    "content": [
+        {
+            "id": 1,
+            "name": "크라이치즈버거 역곡점",
+            "address": "경기 부천시 원미구 지봉로 49",
+            "phoneNumber": "0507-1397-0778",
+            "categories": [
+                {
+                    "id": 1,
+                    "name": "버거"
+                }
+            ],
+            "rating": 4.6,
+            "menu": [
+                "버거"
+            ],
+            "description": "피자",
+            "travelTime": 0.4,
+            "userRating": 4.6
+        },
+        {
+            "id": 2,
+            "name": "파파존스 역곡점",
+            "address": "경기 부천시 원미구 지봉로 49",
+            "phoneNumber": "0507-1397-0778",
+            "categories": [
+                {
+                    "id": 3,
+                    "name": "피자"
+                }
+            ],
+            "rating": 2.5,
+            "menu": [
+                "피자"
+            ],
+            "description": "피자",
+            "travelTime": 1.5,
+            "userRating": 2.5
+        },
+        {
+            "id": 3,
+            "name": "총각네포차",
+            "address": "경기 부천시 원미구 지봉로 49",
+            "phoneNumber": "0507-1397-0778",
+            "categories": [
+                {
+                    "id": 2,
+                    "name": "술집"
+                }
+            ],
+            "rating": 4.0,
+            "menu": [
+                "오뎅탕","국물닭발"
+            ],
+            "description": "실내포장마차",
+            "travelTime": 1.9,
+            "userRating": 4.0
+        }
+    ]
+}
