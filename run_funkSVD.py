@@ -11,9 +11,9 @@ from datetime import datetime
 app = Flask(__name__)
 
 # 서버의 API 엔드포인트 설정
-USER_API_URL = 'http://localhost:8080/api/users'
-RESTAURANT_API_URL = 'http://localhost:8080/api/restaurants/all'
-REVIEW_LOG_API_URL = 'http://localhost:8080/api/review-logs'
+USER_API_URL = 'https://nyumtolic.com/api/users'
+RESTAURANT_API_URL = 'https://nyumtolic.com/api/restaurants/all'
+REVIEW_LOG_API_URL = 'https://nyumtolic.com/api/review-logs'
 
 print("데이터를 로드하고 추천 결과를 계산합니다. 잠시만 기다려주세요...")
 
